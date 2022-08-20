@@ -88,7 +88,7 @@ if (!fs.existsSync(settingsFile)) {
         nointro: false,
         nocursor: false,
         forceFullscreen: true,
-        allowWindowed: false,
+        allowWindowed: true,
         excludeThreadsFromToplist: true,
         hideDotfiles: false,
         fsListView: false,

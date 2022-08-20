@@ -18,9 +18,10 @@ class Cpuinfo {
             let divide = Math.floor(data.cores/2);
             this.divide = divide;
 
-            let cpuName = data.manufacturer+data.brand;
-            cpuName = cpuName.substr(0, 30);
-            cpuName.substr(0, Math.min(cpuName.length, cpuName.lastIndexOf(" ")));
+            let cpuName = data.manufacturer + ' ' + data.brand;
+            cpuName = cpuName.split(' ').slice(0, 4).join(' ');
+            // cpuName = cpuName.substr(0, 30);
+            // cpuName.substr(0, Math.min(cpuName.length, cpuName.lastIndexOf(" ")));
 
             let innercontainer = document.createElement("div");
             innercontainer.setAttribute("id", "mod_cpuinfo_innercontainer");

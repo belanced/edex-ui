@@ -1,0 +1,46 @@
+{
+    "colors": {
+        "r": 0,
+        "g": 143,
+        "b": 17,
+        "black": "#000000",
+        "light_black": "#000000",
+        "grey": "#000000",
+        "red": "#cc0000",
+        "green": "#008f11",
+        "yellow": "#cc9900",
+        "blue": "#003d99",
+        "magenta": "#cc00cc",
+        "cyan": "#0294b1",
+        "white": "#eff0eb",
+        "brightBlack": "#686868",
+        "brightRed": "#cc0000",
+        "brightGreen": "#008f11",
+        "brightYellow": "#cc9900",
+        "brightBlue": "#003d99",
+        "brightMagenta": "#cc00cc",
+        "brightCyan": "#0294b1",
+        "brightWhite": "#eff0eb"
+    },
+    "cssvars": {
+        "font_main": "Sf Pro Display Regular",
+        "font_main_light": "Sf Pro Display Light"
+    },
+    "terminal": {
+        "fontFamily": "Sf Mono Medium",
+        "cursorStyle": "underline",
+        "foreground": "#008f11",
+        "background": "#000000",
+        "cursor": "#00ff41",
+        "cursorAccent": "#00ff41",
+        "selection": "rgba(239,240,235,0.3)",
+        "colorFilter": ["mix()"]
+    },
+    "globe": {
+        "base": "#008f11",
+        "marker": "#008f11",
+        "pin": "#008f11",
+        "satellite": "#008f11"
+    },
+    "injectCSS": "section#main_shell{height:96.5%;position:absolute;top: 1vh;left: 33.0vw;} section#main_shell>h3.title {display: none;} ul#main_shell_tabs{margin-top:-0.8vh;height: 1.24vh;text-align: center;font-size: 10px;} .terminal .xterm-viewport{padding-bottom:0} .xterm{height:90%} .xterm .xterm-screen{top:0.4vh;bottom:0.4vh;left:0.4vw;right:0.4vw;} section#mod_column_left > div#mod_toplist {letter-spacing: -.02vw;font-size: 50%;} table#mod_toplist_table {padding-left: 0.0vw;} section#mod_column_right{left:28.5vh !important;} section#mod_column_right>h3.title{left:29.6vh !important;} div#mod_netstat_inner{height:6.85vh;padding-top:.5vh;} div#mod_globe_innercontainer{padding-bottom:.95vh;} div#mod_conninfo canvas{height:8vh!important;}  @media (aspect-ratio:64/27) {section#mod_column_left > h3.title{left:1.6vh!important} section#mod_column_left{left:1vh !important} section#mod_column_right > h3.title{left:44vh!important} section#mod_column_right{left:43vh !important} section#main_shell > h3.title{left:37vw !important;width:60% !important} section#main_shell{left:41vh;width:60%} } section.mod_column > div h1:first-child>i{letter-spacing: .01vh;bottom:1.9vh !important;} div#mod_toplist > h1{margin: 0 0 -1.6vh;} div#mod_netstat_inner > h1:first-child{margin-bottom: -1.0vh;} div#mod_globe_innercontainer > h1:first-child, div#mod_conninfo_innercontainer > h1:first-child{margin: 0 0 -1.2vh;} div#mod_toplist::after{top:-13.9vh;} section>h3.title:first-child::after{right:-0.85vh;bottom:-0.6vh;} section#keyboard{display:none;} section#filesystem{position:absolute;top:70vh;left:0.5vw;width:32%} section#filesystem>h3.title{width:32%;} section#filesystem>h3.title:first-child>p{width:24%} section#filesystem>h3.title:first-child>p:last-child{position:static;right:auto;width:72%} section#filesystem div#fs_disp_container{width:100%} section#filesystem.list-view>div#fs_disp_container:not(.disks)>div>h4{font-size:1.0vh} section#filesystem.list-view>div#fs_disp_container:not(.disks)>div>h4:nth-of-type(1){display:none} section#filesystem.list-view>div#fs_disp_container:not(.disks)>div>h4:nth-of-type(2){width:25%} div#fs_space_bar > progress{width:70%;position:relative;left:0%;} div#fs_disp_container > * > h3{font-size:1.0vh;} "
+}

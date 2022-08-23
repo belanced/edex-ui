@@ -40,7 +40,7 @@ class Toplist {
 
             let list = data.list.sort((a, b) => {
                 return ((b.cpu-a.cpu)*100 + b.mem-a.mem);
-            }).splice(0, 5);
+            }).splice(0, 6);
 
             document.querySelectorAll("#mod_toplist_table > tr").forEach(el => {
                 el.remove();
